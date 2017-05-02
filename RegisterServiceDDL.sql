@@ -24,7 +24,7 @@ INSERT INTO product VALUES (
 
 INSERT INTO product VALUES (
        uuid_generate_v4()
-     , 'lookupcode1'
+     , 'lookupcode2'
      , 125
      , current_timestamp
 );
@@ -32,6 +32,14 @@ INSERT INTO product VALUES (
 INSERT INTO product VALUES (
        uuid_generate_v4()
      , 'lookupcode3'
+     , 175
+     , current_timestamp
+);
+
+
+INSERT INTO product VALUES (
+       uuid_generate_v4()
+     , 'lookupcode4'
      , 150
      , current_timestamp
 );
